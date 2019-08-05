@@ -1,0 +1,64 @@
+<!-- Footer -->
+<footer> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3><i class="fa fa-map-marker"></i> Contact:</h3>
+        <p class="footer-contact">
+          {{ site.company_name }} <br>
+          Phone: {{ site.telephone_number }} <br>
+          Fax: {{ site.fax_number }} <br>
+          Email: {{ site.company_email }}<br>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-external-link"></i> Linkler</h3>
+        <p><a href="/about"> Biz Kimiz</a></p>
+        <p><a href="/about2"> Digital Gaming Day(DGD)</a></p>
+		<p><a href="/blog"> Etkinliklerimiz </a></p>
+		<p><a href="/team"> Kadromuz</a></p> 
+        <p><a href="/contact"> Turnuva Kayit</a></p>
+        
+        
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-heart"></i>Sosyal Medya</h3>
+        <div id="social-icons">
+          {% if site.facebook_link %}
+            <a href="{{ site.facebook_link }}" class="btn-group facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          {% endif %}
+
+          {% if site.twitter_link %}
+            <a href="{{ site.twitter_link }}" class="btn-group twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          {% endif %}
+
+          {% if site.discord_link %}
+            <a href="{{ site.discord_link }}" class="btn-group discord">
+              <i class="fa fa-discord"></i>
+            </a>
+          {% endif %}
+		  
+		  {% if site.twitch_link %}
+            <a href="{{ site.twitch_link }}" class="btn-group twitch">
+              <i class="fa fa-twitch"></i>
+            </a>
+          {% endif %}
+		  
+		  {% if site.steam_link %}
+            <a href="{{ site.steam_link }}" class="btn-group steam">
+              <i class="fa fa-steam"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>    
+    </div>
+  </div>
+
+  <div class="copyright text center">
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">Your Website Link</a>. <br>Theme ported by <a href="https://instagram.com/alican_boyacim/" target="_blank">Ali Can Boyaci</a></p>
+  </div>
+</footer>
