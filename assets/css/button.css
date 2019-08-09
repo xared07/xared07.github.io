@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  background: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+.store {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: table;
+  text-align: center;
+}
+a {
+  position: relative;
+  border: 0;
+  text-decoration: none;
+  line-height: 38px;
+  display: inline-block;
+  padding: 0px 20px 0px 36px;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255,255,255,0.9);
+  margin: 10px;
+}
+a.appstore {
+  background: #191919;
+}
+a.playstore {
+  background: #22afc2;
+}
+a i {
+  font-size: 16px;
+  position: absolute;
+  margin-top: 11px;
+  margin-left: -20px;
+}
+a:hover {
+  color: #fff;
+}
+a:after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  left: -200px;
+  -webkit-transform: skewX(-25deg);
+  -moz-transform: skewX(-25deg);
+  -o-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+  background-image: -webkit-linear-gradient(left, transparent, rgba(255,255,255,0.14), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(255,255,255,0.14), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(255,255,255,0.14), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(255,255,255,0.14), transparent);
+  background-image: linear-gradient(to right, transparent, rgba(255,255,255,0.14), transparent);
+  height: 50px;
+}
+a:hover:after {
+  -webkit-animation: shine 0.8s ease;
+  -moz-animation: shine 0.8s ease;
+  -o-animation: shine 0.8s ease;
+  -ms-animation: shine 0.8s ease;
+  animation: shine 0.8s ease;
+}
+@-moz-keyframes shine {
+  to {
+    left: 200px;
+  }
+}
+@-webkit-keyframes shine {
+  to {
+    left: 200px;
+  }
+}
+@-o-keyframes shine {
+  to {
+    left: 200px;
+  }
+}
+@keyframes shine {
+  to {
+    left: 200px;
+  }
+}

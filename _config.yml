@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+﻿# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -15,28 +15,25 @@
 # in the templates via {{ site.myvariable }}.
 title: YTU DOGDOK
 email: info@dogdok.com
-description: > # this means to ignore newlines until "baseurl:"
-  Yet another Jekyll theme. It is designed for business purpose and ported by 
-  Melvin Ch'ng.
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dogdok.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
-company_name: Dijital Oyun Gelistirme ve Dijital Oyunculuk Kulubu
-address_line: Yildiz Teknik Universitesi Davutpasa Kampusu
-telephone_number: +90 (541) 361 83 44
+company_name: Dijital Oyun Geliştirme ve Dijital Oyunculuk Kulübü
+address_line: Yıldız Teknik Üniversitesi Davutpaşa Kampüsü
 company_email: info@dogdok.com
 google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4256.746407391211!2d28.88652539319333!3d41.02581928790205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabae67665c11f%3A0x3fb8948044de2687!2zWcSxbGTEsXogVGVrbmlrIMOcbml2ZXJzaXRlc2kgRGF2dXRwYcWfYSBZZXJsZcWfa2VzaQ!5e0!3m2!1str!2str!4v1564960140034!5m2!1str!2str
 # Social Link
 facebook_link: https://www.facebook.com/dogdokytu/
 twitter_link: https://twitter.com/ytudogdok
-discord_link: https://discord.gg/pUyYMV
+instagram_link: https://www.instagram.com/ytu_dogdok
+discord_link: https://discord.gg/tqNhuYV
 twitch_link: https://www.twitch.tv/ytudogdok
 steam_link: https://steamcommunity.com/groups/ytudogdok
 
 # Build settings
 markdown: kramdown
-encoding: utf-8
 plugins:
   - jekyll-feed
 
@@ -51,3 +48,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#  (ノಠ益ಠ)ノ彡┻━┻

@@ -1,14 +1,7 @@
 ---
-title: "Etkinlik Yeni!"
-description: "'I am bound to Tahiti for more men.'
-'Very good. Let me board you a moment—I come in peace.' With that he leaped from the canoe, swam to the boat; and climbing the gunwale, stood face to face with the captain.
-'Cross your arms, sir; throw back your head. Now, repeat after me. As soon as Steelkilt leaves me, I swear to beach this boat on yonder island, and remain there six days. If I do not, may lightning strike me!'A pretty scholar,' laughed the Lakeman. 'Adios, Senor!' and leaping into the sea, he swam back to his comrades."
-picture: blog2.jpg
+title: "Teknik Gezi"
+description: "Teknik Gezilerimiz bizim daha sektör öğrenme odaklı olduğumuz ve staj imkanları sağlayabildiğimiz bir kısım. Gecen sene dort ogrencimize staj imkanı sagladık. Oyunlarin nasil yapildigi hakkinda bilgi sahibi olmak isteyen arkadaslarimizin teknik gezilerimize katilip hem bilgilenip hem network kazanip hem de bu networkü staj hatta is imkanina dönüstürmesini amacliyoruz.Gecen sene Peak Games'e gezi düzenlemistik. Katilanlardan ne kadar eglendigimizi sorabilirsiniz."
+picture: Teknik Gezi.jpg
 
-label_default: "alice" 
-label_primary: "story"
-label_success: 
-label_info: "personal"
-label_warning: "warning"
-label_danger: 
+
 ---
