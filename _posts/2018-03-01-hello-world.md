@@ -1,6 +1,6 @@
 ---
 title: "Sosyal Etkinlikler"
-description: "Baslica gelen sosyal etkinliklerimiz mangal, paintball ve çesitli oyun topluluklarinda bulunmak. Mangallarda üyelerimiz mobil oyunlarla eğlenirken taze ve sıcak etlerini yiyorlar. Ayni zamanda mangalda sportif aktiviteler yapiyorlar. Paintball ise FPS tarzi oyunlari seven arkadaslarimiz gercek hayatta bu yeteneklerini deniyor ve keyifli vakit geciriyorlar. Her hafta Riot Games Arena'da hep beraber macları izlemeye gidiyoruz. Bu hem bizim daha da kaynasmamızı hem de aynı zevkleri paylaşan insanlarin daha yakin olmasini sagliyor."
+description: "Başlıca gelen sosyal etkinliklerimiz mangal, paintball ve çesitli oyun topluluklarında bulunmak. Mangallarda üyelerimiz mobil oyunlarla eğlenirken taze ve sıcak etlerini yiyorlar.   Aynı zamanda mangalda sportif aktiviteler yapıyorlar. Paintball ise FPS tarzı  oyunları seven arkadaşlarımız gerçek hayatta bu yeteneklerini deniyor ve keyifli vakit geçiriyorlar. Her hafta Riot Games Arena'da beraberce maçları izlemeye gidiyoruz. Bu hem bizim daha da kaynaşmamızı hem de aynı zevkleri paylaşan insanların daha yakın olmasıno sağlıyor."
 picture: Sosyal.jpg
 
 
