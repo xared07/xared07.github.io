@@ -1,75 +1,70 @@
-<!-- Footer -->
-<head>
-    <!-- Place your kit's code here -->
-    <script src="https://kit.fontawesome.com/bec5351d20.js"></script>
-  </head>
-<footer> 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <h3><i class="fa fa-map-marker"></i> Bize Ulasin!</h3>
-        <p class="footer-contact">
-          {{ site.company_name }} <br>
-          Phone: {{ site.telephone_number }} <br>
-          Email: {{ site.company_email }}<br>
-        </p>
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-external-link"></i> Linkler</h3>
-        <p><a href="/bio"> Ne Bu Dogdok?</a></p>
-        <p><a href="/ekip">    Ekip</a></p>
-		<p><a href="/DGD"> Digital Gaming Day</a></p>
-		<p><a href="/etkinlik"> Etkinliklerimiz</a></p> 
-        <p><a href="/turnuva"> Turnuva Kayit</a></p>
-		<p><a href="/dogdokkart"> Dogdok Kart</a></p>
-		<p><a href="/dergi"> Dogdok Dergi</a></p>
-        
-        
-      </div>
-      <div class="col-md-4">
-        <h3><i class="fa fa-heart"></i>Sosyal Medya</h3>
-        <div id="social-icons">
-          {% if site.facebook_link %}
-            <a href="{{ site.facebook_link }}" class="btn-group facebook">
-              <i class="fab fa-facebook"></i>
-            </a>
-          {% endif %}
-
-          {% if site.twitter_link %}
-            <a href="{{ site.twitter_link }}" class="btn-group twitter">
-              <i class="fab fa-twitter"></i>
-            </a>
-          {% endif %}
-
-          {% if site.instagram_link %}
-            <a href="{{ site.instagram_link }}" class="btn-group instagram">
-              <i class="fab fa-instagram"></i>
-            </a>
-          {% endif %}
-		  
-		  {% if site.discord_link %}
-            <a href="{{ site.discord_link }}" class="btn-group discord">
-              <i class="fab fa-discord"></i>
-            </a>
-          {% endif %}
-		  
-		  {% if site.twitch_link %}
-            <a href="{{ site.twitch_link }}" class="btn-group twitch">
-              <i class="fab fa-twitch"></i>
-            </a>
-          {% endif %}
-		  
-		  {% if site.steam_link %}
-            <a href="{{ site.steam_link }}" class="btn-group steam">
-              <i class="fab fa-steam"></i>
-            </a>
-          {% endif %}
+<footer style="margin-top:0!important;"> 
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4">
+            <h3><i class="fa fa-map-marker"></i> Bize Ulaşın!</h3>
+            <p class="footer-contact">
+            Dijital Oyun Geliştirme ve Dijital Oyunculuk Kulübü <br>
+            Phone: {{site.phone}} <br>
+            Email: {{site.email}} <br>
+            </p>
         </div>
-      </div>    
+        <div class="col-md-4">
+            <h3><i class="fa fa-external-link"></i> Linkler</h3>
+            <p><a href="/bio"> Ne Bu Dogdok?</a></p>
+            <p><a href="/ekip">    Ekip</a></p>
+            <p><a href="/DGD"> Digital Gaming Day</a></p>
+            <p><a href="/etkinlik"> Etkinliklerimiz</a></p> 
+            <p><a href="/turnuva"> Turnuva Kayit</a></p>
+            <p><a href="/dogdokkart"> Dogdok Kart</a></p>
+            <p><a href="/dergi"> Dogdok Dergi</a></p>
+            
+            
+        </div>
+        <div class="col-md-4">
+            <h3><i class="fa fa-heart"></i> Sosyal Medya</h3>
+            <div id="social-icons" style="margin: 0 16px 8px;">
+            
+                <a href="https://www.facebook.com/dogdokytu/" class="btn-group facebook">
+                <i class="fab fa-facebook"></i>
+                </a>
+            
+    
+            
+                <a href="https://twitter.com/ytudogdok" class="btn-group twitter">
+                <i class="fab fa-twitter"></i>
+                </a>
+            
+    
+            
+                <a href="https://www.instagram.com/ytu_dogdok" class="btn-group instagram">
+                <i class="fab fa-instagram"></i>
+                </a>
+            
+            
+            
+                <a href="https://discord.gg/tqNhuYV" class="btn-group discord">
+                <i class="fab fa-discord"></i>
+                </a>
+            
+            
+            
+                <a href="https://www.twitch.tv/ytudogdok" class="btn-group twitch">
+                <i class="fab fa-twitch"></i>
+                </a>
+            
+            
+            
+                <a href="https://steamcommunity.com/groups/ytudogdok" class="btn-group steam">
+                <i class="fab fa-steam"></i>
+                </a>
+            
+            </div>
+        </div>    
+        </div>
     </div>
-  </div>
-
-  <div class="copyright text center">
-    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">YTU DOGDOK</a>. <br>Theme ported by <a href="https://instagram.com/alican_boyacim/" target="_blank">Ali Can Boyaci</a></p>
-  </div>
+    
+    <div class="copyright text center">
+        <p>&copy; Copyright 2019, <a href="#">YTU DOGDOK</a>. <br>Theme ported by <a href="https://instagram.com/alican_boyacim/" target="_blank">Ali Can Boyaci</a></p>
+    </div>
 </footer>

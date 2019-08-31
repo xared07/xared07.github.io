@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-body {
+/*body {
   background: #eee;
   font-family: 'Montserrat', sans-serif;
-}
+}*/
 .store {
   position: absolute;
   top: 50%;
@@ -15,7 +15,8 @@ body {
   display: table;
   text-align: center;
 }
-a {
+
+.store a {
   position: relative;
   border: 0;
   text-decoration: none;
@@ -34,22 +35,22 @@ a {
   color: rgba(255,255,255,0.9);
   margin: 10px;
 }
-a.appstore {
+.store a.appstore {
   background: #191919;
 }
-a.playstore {
+.store a.playstore {
   background: #22afc2;
 }
-a i {
+.store a i {
   font-size: 16px;
   position: absolute;
   margin-top: 11px;
   margin-left: -20px;
 }
-a:hover {
+.store a:hover {
   color: #fff;
 }
-a:after {
+.store a:after {
   content: '';
   position: absolute;
   width: 200px;
@@ -66,7 +67,7 @@ a:after {
   background-image: linear-gradient(to right, transparent, rgba(255,255,255,0.14), transparent);
   height: 50px;
 }
-a:hover:after {
+.store a:hover:after {
   -webkit-animation: shine 0.8s ease;
   -moz-animation: shine 0.8s ease;
   -o-animation: shine 0.8s ease;

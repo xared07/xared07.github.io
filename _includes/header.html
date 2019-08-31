@@ -1,49 +1,30 @@
-﻿<!-- Header -->
-<nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
-  <div class="container">
-  
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
+﻿<nav class="navbar navbar-default navbar-static-top navbar-sticky" style="z-index:1000">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/img/slider/dogdok-trimmed.png" height="100%" alt="">
+        </a>
+        <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            
+        </div>
+        
+        <ul class="nav navbar-nav collapse navbar-collapse navbar-responsive-collapse">
+            <li class="{% if page.name == "index.md" %} active {% endif %}"><a href="/index">Ana Sayfa</a></li>
+            <li class="{% if page.name == "bio.md" %} active {% endif %}"><a href="/bio">Ne Bu Dogdok?</a></li>
+            <li class="{% if page.name == "ekip.md" %} active {% endif %}"><a href="/ekip">Ekip</a></li>
+            <li class="{% if page.name == "DGD.md" %} active {% endif %}"><a href="/DGD">DGD</a></li>
+            <li class="{% if page.name == "etkinlik.md" %} active {% endif %}"><a href="/etkinlik">Etkinliklerimiz</a>
+            </li>
+            <li class="{% if page.name == "turnuva.md" %} active {% endif %}"><a href="/turnuva">Turnuva Kayıt</a></li>
+            <li class="{% if page.name == "mobil.md" %} active {% endif %}"><a href="/mobil">Dogdok Mobil</a></li>
+            <li class="{% if page.name == "dogdokkart.md" %} active {% endif %}"><a href="/dogdokkart">Kart</a></li>
+            <li class="{% if page.name == "dergi.md" %} active {% endif %}"><a href="/dergi">Dergi</a></li>
 
-    <a class="navbar-brand wow fadeInDownBig" href="index.html"><img class="office-logo" src="../assets/img/slider/Office.png" alt="Office"></a>      
-  </div>
-
-  <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
-    <ul class="nav navbar-nav pull-right">
-      <li class="active">
-        <a href="/">Ana Sayfa</a>
-      </li>
-      <li>
-        <a href="/bio.html">Ne Bu Dogdok?</a>
-      </li>
-      <li>
-        <a href="/ekip.html">Ekip</a>
-      </li>
-	  <li>
-        <a href="/DGD.html">DGD</a>
-      </li>
-      <li>
-        <a href="/etkinlik.html">Etkinliklerimiz</a>
-      </li>
-	   <li>
-        <a href="/turnuva.html">Turnuva Kayıt</a>
-      </li>
-     <li>
-	 <a href="mobil.html"> Dogdok Mobil </a>
-	 <li>
-        <a href="/dogdokkart.html"><span>Kart</span></a>
-      </li>
-	   <li>
-        <a href="/dergi.html"><span>Dergi</span></a>
-      </li>
-    </ul>         
-  </div>
-  </div>
+        </ul>
+    </div>
 </nav>
-
-<!-- End Header -->
