@@ -1,0 +1,138 @@
+<div class="container countdown" date="2019-09-16">
+    <div class="row">
+        <div class="col-12 col-lg-12">
+            <div class="entry-header">
+                <div class="entry-meta-date">
+                    16.09.2019
+                </div>
+                <h2 class="title">Dogdok Kampüs Oyunlarının Başlamasına</h2>
+            </div>
+        </div>
+        <div class="row date text-center">
+            <div class="col-sm-3">
+                <h2 id="days" class="number">0</h2>
+                <h2 class="text">Gün</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 id="hours" class="number"></h2>
+                <h2 class="text">Saat</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 id="minutes" class="number"></h2>
+                <h2 class="text">Dakika</h2>
+            </div>
+            <div class="col-sm-3">
+                <h2 id="seconds" class="number">some</h2>
+                <h2 class="text">Saniye</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mobile-link"><a href="/mobil">İndirmek için tıklayın</a></div>
+        </div>
+    </div>
+</div>
+<script>
+    updateCountdown()
+    setInterval(()=>{
+        updateCountdown()
+    },1000)
+    function updateCountdown(){
+        var dateString = document.querySelector("div[date]").getAttribute("date")
+        var dateParts = dateString.split('-');
+        var targetDate = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+        var remainingDuration = calculateRemainingDays(targetDate,new Date())
+        document.getElementById("days").innerHTML = remainingDuration.days
+        document.getElementById("hours").innerHTML = remainingDuration.hours
+        document.getElementById("minutes").innerHTML = remainingDuration.minutes
+        document.getElementById("seconds").innerHTML = remainingDuration.seconds
+
+        console.log(targetDate.toDateString());
+    }
+
+    function calculateRemainingDays(date1,date2){
+        // get total seconds between the times
+        var delta = Math.abs(date1 - date2) / 1000;
+
+        // calculate (and subtract) whole days
+        var days = Math.floor(delta / 86400);
+        delta -= days * 86400;
+
+        // calculate (and subtract) whole hours
+        var hours = Math.floor(delta / 3600) % 24;
+        delta -= hours * 3600;
+
+        // calculate (and subtract) whole minutes
+        var minutes = Math.floor(delta / 60) % 60;
+        delta -= minutes * 60;
+
+        // what's left is seconds
+        var seconds = Math.floor(delta % 60);  // in theory the modulus is not required
+
+        return {days:days,hours:hours,minutes:minutes,seconds:seconds}
+    }
+</script>
+
+<style>
+    body{
+        background:url("./assets/img/countdown-back.jpg");
+    }
+    .countdown .entry-header .title{
+        font-size:50px;
+        text-align: center;
+        margin:0;
+        padding:50px;
+        font-family: 'Roboto', sans-serif;
+        color: #00272C;
+        font-weight:500
+    }
+    .entry-meta-date{
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        padding-left:64px;
+        top: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: hsl(0, 0%, 90%);
+        text-align: center;
+    }
+    .mobile-link{
+        text-align: right;
+        font-size:24px;
+        margin-bottom: 60px;
+    }
+    .mobile-link a{
+        cursor:pointer;
+    }
+    .date{
+        margin-top: 40px;
+        margin-bottom:15px;
+    }
+    .countdown{
+        margin-top:100px;
+    }
+    /*Alttaki sayıların ortak ayarları*/
+    .countdown .date h2{
+        margin:0!important;
+        color: #14D9E6;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /*Gün Saat Dakika yazısı*/
+    .countdown .date h2.text{
+        font-size:27px;
+    }
+    /*Sayılar*/
+    .countdown .date h2.number{
+        display: block;
+        font-size: 72px;
+        line-height: 1;
+        font-weight: normal;
+
+        /*color: hsl(335, 33%, 50%);*/
+    }
+    .offset-lg-2{
+        margin-left:  16.666667%;
+    }
+</style>
