@@ -2,9 +2,6 @@
     <div class="row">
         <div class="col-12 col-lg-12">
             <div class="entry-header">
-                <div class="entry-meta-date">
-                    16.09.2019
-                </div>
                 <h2 class="title">Dogdok Kampüs Oyunlarının Başlamasına</h2>
             </div>
         </div>
@@ -27,7 +24,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="mobile-link"><a href="/mobil">İndirmek için tıklayın</a></div>
+            <div class="col mobile-link"><a href="/mobil">İndirmek için tıklayın</a></div>
         </div>
     </div>
 </div>
@@ -80,7 +77,6 @@
         font-size:50px;
         text-align: center;
         margin:0;
-        padding:50px;
         font-family: 'Roboto', sans-serif;
         color: #00272C;
         font-weight:500
@@ -98,9 +94,11 @@
         text-align: center;
     }
     .mobile-link{
-        text-align: right;
+        text-align: center;
         font-size:24px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+        margin-top:15px;
+
     }
     .mobile-link a{
         cursor:pointer;
@@ -134,5 +132,24 @@
     }
     .offset-lg-2{
         margin-left:  16.666667%;
+    }
+
+    @media (min-width: 768px){
+        .mobile-link {
+            margin-top:15px;
+            text-align: right;
+
+        }
+        .countdown .entry-header .title{
+            font-size:50px;
+            text-align: center;
+            margin:0;
+            font-family: 'Roboto', sans-serif;
+            color: #00272C;
+            font-weight:500;
+            padding:50px;
+
+        }
+
     }
 </style>
