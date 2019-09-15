@@ -62,40 +62,37 @@ layout: default_style
     </a><a href="" title="Sarah Spoja - Staff Writer">
         <div class="about__slot">
             <div class="headshot" onclick="biograph(this.parentNode);"
-                style="background-image:url('./assets/img/team/oes.png');"></div>
-
-            <div class="about__info">
-                <h4 class="name">Ömer Emre Selimoğlu</h4>
-                <h5 class="title">Üye</h5>
-            </div>
-            <div class="bioText">Sarah Spoja is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
-
-
-        </div>
-    </a><a href="" title="Malik Ali - Account Manager">
-        <div class="about__slot">
-            <div class="headshot" onclick="biograph(this.parentNode);"
-                style="background-image:url('./assets/img/team/mel.jpg');"></div>
+                 style="background-image:url('./assets/img/team/mel.jpg');"></div>
 
             <div class="about__info">
                 <h4 class="name">Melike Güngör</h4>
                 <h5 class="title">Sekreter</h5>
             </div>
-            <div class="bioText">Malik Ali is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
+            <div class="bioText">Sarah Spoja is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
+
 
         </div>
-    </a>
+   </a><a href="" title="Sarah Spoja - Staff Writer">
+            <div class="about__slot">
+                <div class="headshot" onclick="biograph(this.parentNode);"
+                    style="background-image:url('./assets/img/team/berke.jpg');"></div>
 
+                <div class="about__info">
+                    <h4 class="name">Berke Kaan Açıkgöz</h4>
+                    <h5 class="title">Yönetim Kurulu Üyesi</h5>
+                </div>
+                <div class="bioText">Sarah Spoja is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
+                </div>
     </div>
     <div class="about__section">
         <!-- Specificity container -->
         <a href="" title="Koby Conrad - CEO">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/goksel.png');"></div>
+                    style="background-image:url('./assets/img/team/kaan.png');"></div>
                 <div class="about__info">
-                    <h4 class="name">Göksel Gökçe</h4>
-                    <h5 class="title">Üye</h5>
+                    <h4 class="name">Kaan Kanarya</h4>
+                    <h5 class="title">Yönetim Kurulu Üyesi</h5>
                 </div>
                 <div class="bioText">Koby Conrad is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
@@ -104,10 +101,11 @@ layout: default_style
         </a><a href="" title="Riley Brunet - Creative Director">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('http://placekitten.com/224/224');"></div>
+                    style="background-image:url('./assets/img/team/berk.jpg');"></div>
+
                 <div class="about__info">
-                    <h4 class="name">Nazlıgül Aydın</h4>
-                    <h5 class="title">Üye</h5>
+                    <h4 class="name">Berk Yeniçeri</h4>
+                    <h5 class="title">Yönetim Kurulu Üyesi</h5>
                 </div>
                 <div class="bioText">Riley Brunett is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
@@ -117,10 +115,10 @@ layout: default_style
         </a><a href="" title="Riley Brunet - Creative Director">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/kaan.png');"></div>
+                    style="background-image:url('./assets/img/team/baran.png');"></div>
                 <div class="about__info">
-                    <h4 class="name">Kaan Kanarya</h4>
-                    <h5 class="title">Üye</h5>
+                    <h4 class="name">Baran Demirci</h4>
+                    <h5 class="title">Etkinlik Sorumlusu</h5>
                 </div>
                 <div class="bioText">Riley Brunett is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
@@ -129,11 +127,11 @@ layout: default_style
         </a><a href="" title="Harbor Neher - Account Manager">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/berk.jpg');"></div>
+                    style="background-image:url('./assets/img/team/alperen.png');"></div>
 
                 <div class="about__info">
-                    <h4 class="name">Berk Yeniçeri</h4>
-                    <h5 class="title">Üye</h5>
+                    <h4 class="name">Alperen Efendioğlu</h4>
+                    <h5 class="title">Crew</h5>
                 </div>
                 <div class="bioText">Harbor Neher is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
@@ -142,11 +140,10 @@ layout: default_style
         </a><a href="" title="Sarah Spoja - Staff Writer">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/berke.jpg');"></div>
-
+                    style="background-image:url('./assets/img/team/alican.jpg');"></div>
                 <div class="about__info">
-                    <h4 class="name">Berke Kaan Açıkgöz</h4>
-                    <h5 class="title">Üye</h5>
+                    <h4 class="name">Ali Can Boyacı</h4>
+                    <h5 class="title">Yüce Moderatör</h5>   
                 </div>
                 <div class="bioText">Sarah Spoja is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
@@ -156,11 +153,10 @@ layout: default_style
         </a><a href="" title="Malik Ali - Account Manager">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/orhun.jpg');"></div>
-
+                    style="background-image:url('./assets/img/team/kursad.jpg');"></div>
                 <div class="about__info">
-                    <h4 class="name">Orhun Demir</h4>
-                    <h5 class="title">Hearthstone Community Manager</h5>
+                    <h4 class="name">Kürşad Taşdemir</h4>
+                    <h5 class="title">Editör</h5>
                 </div>
                 <div class="bioText">Malik Ali is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
 
@@ -185,10 +181,11 @@ layout: default_style
         </a><a href="" title="Riley Brunet - Creative Director">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/alican.jpg');"></div>
+                    style="background-image:url('./assets/img/team/orhun.jpg');"></div>
+
                 <div class="about__info">
-                    <h4 class="name">Ali Can Boyacı</h4>
-                    <h5 class="title">Yüce Moderatör</h5>
+                    <h4 class="name">Orhun Demir</h4>
+                    <h5 class="title">Hearthstone Community Manager</h5>
                 </div>
                 <div class="bioText">Riley Brunett is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
@@ -196,86 +193,7 @@ layout: default_style
 
             </div>
         </a><a href="" title="Riley Brunet - Creative Director">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/baran.png');"></div>
-                <div class="about__info">
-                    <h4 class="name">Baran Demirci</h4>
-                    <h5 class="title">Etkinlik Sorumlusu</h5>
-                </div>
-                <div class="bioText">Riley Brunett is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
-                </div>
-
-            </div>
-        </a><a href="" title="Harbor Neher - Account Manager">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/furkan.jpg');"></div>
-
-                <div class="about__info">
-                    <h4 class="name">Furkan Gürbüz</h4>
-                    <h5 class="title">Crew</h5>
-                </div>
-                <div class="bioText">Harbor Neher is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
-                </div>
-
-            </div>
-        </a><a href="" title="Sarah Spoja - Staff Writer">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/alperen.png');"></div>
-
-                <div class="about__info">
-                    <h4 class="name">Alperen Efendioğlu</h4>
-                    <h5 class="title">Crew</h5>
-                </div>
-                <div class="bioText">Sarah Spoja is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
-                </div>
-
-
-            </div>
-        </a><a href="" title="Malik Ali - Account Manager">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/akif.png');"></div>
-
-                <div class="about__info">
-                    <h4 class="name">Akif Emre Bozdemir</h4>
-                    <h5 class="title">Crew</h5>
-                </div>
-                <div class="bioText">Malik Ali is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
-            </div>
-        </a>
-    </div>
-    <div class="about__section">
-        <!-- Specificity container -->
-        <a href="" title="Koby Conrad - CEO">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/kursad.jpg');"></div>
-                <div class="about__info">
-                    <h4 class="name">Kürşad Taşdemir</h4>
-                    <h5 class="title">Editör</h5>
-                </div>
-                <div class="bioText">Koby Conrad is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
-                </div>
-
-            </div>
-        </a><a href="" title="Riley Brunet - Creative Director">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/serhat.jpg');"></div>
-                <div class="about__info">
-                    <h4 class="name">Serhat Rakıcı</h4>
-                    <h5 class="title">(づ｡◕‿‿◕｡)づayca_22(づ｡◕‿‿◕｡)づ</h5>
-                </div>
-                <div class="bioText">Riley Brunett is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
-                </div>
-
-
-            </div>
-        </a><a href="" title="Riley Brunet - Creative Director">
-            <div class="about__slot">
+           <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/firat.jpg');"></div>
                 <div class="about__info">
@@ -286,14 +204,15 @@ layout: default_style
                 </div>
 
             </div>
+        
         </a><a href="" title="Harbor Neher - Account Manager">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/ecem.jpg');"></div>
+                    style="background-image:url('./assets/img/team/alperen.png');"></div>
 
                 <div class="about__info">
-                    <h4 class="name">Ecem Nur Demirel</h4>
-                    <h5 class="title">Denetleme Kurulu Üyesi</h5>
+                    <h4 class="name">Ahmethan Demir</h4>
+                    <h5 class="title">Denetleme Kurulu Başkanı</h5>     
                 </div>
                 <div class="bioText">Harbor Neher is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
@@ -302,11 +221,11 @@ layout: default_style
         </a><a href="" title="Sarah Spoja - Staff Writer">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/alperen.png');"></div>
+                    style="background-image:url('./assets/img/team/ecem.jpg');"></div>
 
                 <div class="about__info">
-                    <h4 class="name">Ahmethan Demir</h4>
-                    <h5 class="title">Denetleme Kurulu Başkanı</h5>
+                    <h4 class="name">Ecem Nur Demirel</h4>
+                    <h5 class="title">Denetleme Kurulu Üyesi</h5>
                 </div>
                 <div class="bioText">Sarah Spoja is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li
                 </div>
