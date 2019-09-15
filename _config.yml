@@ -16,6 +16,7 @@
 title: YTU DOGDOK
 email: info@dogdok.com
 description: 
+phone: "auaua"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dogdok.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
