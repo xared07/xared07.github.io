@@ -56,7 +56,6 @@ layout: default_style
                 </div>
                 <div class="bioText"></div>
             </div>
-<<<<<<< HEAD
             <div class="bioText">Harbor Neher is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
 
         </div>
@@ -74,77 +73,6 @@ layout: default_style
 
         </div>
    </a><a href="" title="Sarah Spoja - Staff Writer">
-=======
-        </a><a href="">
-            <div class="about__slot" title="Ömer Emre Selimoğlu - Üye">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/oes.png');"></div>
-                <div class="about__info">
-                    <h4 class="name">Ömer Emre Selimoğlu</h4>
-                    <h5 class="title">Üye</h5>
-                </div>
-                <div class="bioText"></div>
-            </div>
-        </a><a href="" title="Melike Güngör - Sekreter">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/mel.jpg');"></div>
-                <div class="about__info">
-                    <h4 class="name">Melike Güngör</h4>
-                    <h5 class="title">Sekreter</h5>
-                </div>
-                <div class="bioText"></div>
-            </div>
-        </a>
-    </div>
-    <div class="about__section">
-        <!-- Specificity container -->
-        <a href="" title="Göksel Gökçe - Üye">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/goksel.png');"></div>
-                <div class="about__info">
-                    <h4 class="name">Göksel Gökçe</h4>
-                    <h5 class="title">Üye</h5>
-                </div>
-                <div class="bioText">
-                </div>
-            </div>
-        </a><a href="" title="Nazlıgül Aydın - Üye">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('http://placekitten.com/224/224');"></div>
-                <div class="about__info">
-                    <h4 class="name">Nazlıgül Aydın</h4>
-                    <h5 class="title">Üye</h5>
-                </div>
-                <div class="bioText">
-                </div>
-            </div>
-        </a><a href="" title="Kaan Kanarya - Üye">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/kaan.png');"></div>
-                <div class="about__info">
-                    <h4 class="name">Kaan Kanarya</h4>
-                    <h5 class="title">Üye</h5>
-                </div>
-                <div class="bioText">
-                </div>
-            </div>
-        </a><a href="" title="Berk Yeniçeri - Üye">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/berk.jpg');"></div>
-                <div class="about__info">
-                    <h4 class="name">Berk Yeniçeri</h4>
-                    <h5 class="title">Üye</h5>
-                </div>
-                <div class="bioText">
-                </div>
-            </div>
-        </a><a href="" title="Berke Kaan Açıkgöz - Üye">
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/berke.jpg');"></div>
@@ -154,21 +82,6 @@ layout: default_style
                 </div>
                 <div class="bioText">
                 </div>
-<<<<<<< HEAD
-=======
-            </div>
-        </a><a href="" title="Orhun Demir - Hearthstone Community Manager">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/orhun.jpg');"></div>
-                <div class="about__info">
-                    <h4 class="name">Orhun Demir</h4>
-                    <h5 class="title">Hearthstone Community Manager</h5>
-                </div>
-                <div class="bioText"></div>
-            </div>
-        </a>
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
     </div>
     <div class="about__section">
         <!-- Specificity container -->
@@ -207,12 +120,8 @@ layout: default_style
         </a><a href="" title="Furkan Gürbüz - Crew">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-<<<<<<< HEAD
                     style="background-image:url('./assets/img/team/alperen.png');"></div>
 
-=======
-                    style="background-image:url('./assets/img/team/furkan.jpg');"></div>
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
                 <div class="about__info">
                     <h4 class="name">Alperen Efendioğlu</h4>
                     <h5 class="title">Crew</h5>
@@ -222,11 +131,7 @@ layout: default_style
         </a><a href="" title="Alperen Efendioğlu - Crew">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-<<<<<<< HEAD
                     style="background-image:url('./assets/img/team/alican.jpg');"></div>
-=======
-                    style="background-image:url('./assets/img/team/alperen.png');"></div>
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
                 <div class="about__info">
                     <h4 class="name">Ali Can Boyacı</h4>
                     <h5 class="title">Yüce Moderatör</h5>   
@@ -236,21 +141,13 @@ layout: default_style
         </a><a href="" title="Akif Emre Bozdemir - Crew">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-<<<<<<< HEAD
                     style="background-image:url('./assets/img/team/kursad.jpg');"></div>
-=======
-                    style="background-image:url('./assets/img/team/akif.png');"></div>
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
                 <div class="about__info">
                     <h4 class="name">Kürşad Taşdemir</h4>
                     <h5 class="title">Editör</h5>
                 </div>
-<<<<<<< HEAD
                 <div class="bioText">Malik Ali is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
 
-=======
-                <div class="bioText"></div>
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
             </div>
         </a>
 
@@ -278,13 +175,8 @@ layout: default_style
                 </div>
                 <div class="bioText"></div>
             </div>
-<<<<<<< HEAD
         </a><a href="" title="Riley Brunet - Creative Director">
            <div class="about__slot">
-=======
-        </a><a href="" title="Fırat Yıldırım - Crew">
-            <div class="about__slot">
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/firat.jpg');"></div>
                 <div class="about__info">
@@ -293,19 +185,12 @@ layout: default_style
                 </div>
                 <div class="bioText"></div>
             </div>
-<<<<<<< HEAD
         
         </a><a href="" title="Harbor Neher - Account Manager">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/alperen.png');"></div>
 
-=======
-        </a><a href="" title="Ecem Nur Demirel - Denetleme Kurulu Üyesi">
-            <div class="about__slot">
-                <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/ecem.jpg');"></div>
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
                 <div class="about__info">
                     <h4 class="name">Ahmethan Demir</h4>
                     <h5 class="title">Denetleme Kurulu Başkanı</h5>     
@@ -315,12 +200,8 @@ layout: default_style
         </a><a href="" title="Ahmethan Demir - Denetleme Kurulu Başkanı">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-<<<<<<< HEAD
                     style="background-image:url('./assets/img/team/ecem.jpg');"></div>
 
-=======
-                    style="background-image:url('./assets/img/team/alperen.png');"></div>
->>>>>>> 145b415acb9240d5589dfd8d0979e1a857f18159
                 <div class="about__info">
                     <h4 class="name">Ecem Nur Demirel</h4>
                     <h5 class="title">Denetleme Kurulu Üyesi</h5>
