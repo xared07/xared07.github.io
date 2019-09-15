@@ -159,6 +159,36 @@ layout: default_style
         </a><a href="" title="Serhat Rakıcı - (づ｡◕‿‿◕｡)づayca_22(づ｡◕‿‿◕｡)づ">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
+                    style="background-image:url('./assets/img/team/metin.jpg');"></div>
+                <div class="about__info">
+                    <h4 class="name">Metin Çetin</h4>
+                    <h5 class="title">Geliştirici</h5>
+                </div>
+                <div class="bioText"></div>
+            </div>
+        </a><a href="" title="Riley Brunet - Creative Director">
+           <div class="about__slot">
+                <div class="headshot" onclick="biograph(this.parentNode);"
+                    style="background-image:url('./assets/img/team/oguzhan.jpg');"></div>
+                <div class="about__info">
+                    <h4 class="name">Oğuzhan Bilgin</h4>
+                    <h5 class="title">Tasarımcı</h5>
+                </div>
+                <div class="bioText"></div>
+            </div>
+        </a><a href="" title="Harbor Neher - Account Manager">
+            <div class="about__slot">
+                <div class="headshot" onclick="biograph(this.parentNode);"
+                    style="background-image:url('./assets/img/team/furkangsiz.jpg');"></div>
+                <div class="about__info">
+                    <h4 class="name">Furkan Dönerçark</h4>
+                    <h5 class="title">Newbie</h5>     
+                </div>
+                <div class="bioText"></div>
+            </div>
+             </a><a href="" title="Serhat Rakıcı - (づ｡◕‿‿◕｡)づayca_22(づ｡◕‿‿◕｡)づ">
+            <div class="about__slot">
+                <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/orhun.jpg');"></div>
                 <div class="about__info">
                     <h4 class="name">Orhun Demir</h4>
@@ -179,7 +209,7 @@ layout: default_style
         </a><a href="" title="Harbor Neher - Account Manager">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/alperen.png');"></div>
+                    style="background-image:url('./assets/img/team/ahmethan.png');"></div>
                 <div class="about__info">
                     <h4 class="name">Ahmethan Demir</h4>
                     <h5 class="title">Denetleme Kurulu Başkanı</h5>     
