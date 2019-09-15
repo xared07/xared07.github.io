@@ -4,65 +4,12 @@ published: true
 ---
 <!-- Main Container -->
 
-<div class="container-fluid-kamn">
-  <div class="row">
-    <div>
-      <iframe width="100%" height="450px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ site.google_map }}"></iframe>
-      <br />
-    </div>
-    <div class="container">
-      <div class="col-lg-4">
-        <h4>Find us at:</h4>
-
-        <p class="block-author">{{ site.company_name }}</p>
-        <p>{{ site.address_line }}</p>
-        <p>Phone: {{ site.telephone_number }}</p>
-        <p>Fax: {{ site.fax_number }}</p>
-
-        <em class="block-author">Email: {{ site.company_email }}</em> <br>
-        <br>
-        <!-- p class="lead">Social Link</p><hr>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_skype.png" alt="Skype"></a>
-          Call us
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_facebook.png" alt="Facebook"></a>
-          Like us
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_twitter.png" alt="Twitter"></a>
-          Follow us
-        </div>
-        <br !-->
-      </div>
-      <div class="col-lg-8">
-        <div class="feedback-form">
-
-          <div id="contact-response"></div>
-          
-          <form action="http://templates.designorbital.com/baleen/contact.php" method="post" id="contact-form">
-            <fieldset>
-              <div class="form-group form-group-fullname">
-                <label class="control-label" for="fullname">NAME *</label>
-                <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter Your Name">
-              </div>
-              <div class="form-group form-group-email">
-                <label class="control-label" for="email">E-MAIL *</label>
-                <input type="text" class="form-control" name="email" id="email" placeholder="Enter Your E-Mail">
-              </div>
-              <div class="form-group form-group-message">
-                <label class="control-label" for="message">MESSAGE *</label>
-                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
-              </div>           
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </fieldset>
-          </form>
-          
-        </div> 
-      </div>
-    </div>
-  </div>
-</div>    
+<h1>CSS Image Shadows</h1>
+<div class="grid">
+	<div id="card1" class="card" style="background-image: url('https://images.unsplash.com/photo-1527698952067-61fc35796fcd?ixlib=rb-1.2.1&auto=format&fit=crop&w=2390&q=80');"></div>
+	<div id="card2" class="card" style="background-image: url('https://images.unsplash.com/photo-1530919424169-4b95f917e937?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80');"></div>
+	<div id="card3" class="card" style="background-image: url('https://images.unsplash.com/photo-1518656291-ba160b5554e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80');"></div>
+	<div id="card4" class="card" style="background-image: url('https://images.unsplash.com/photo-1553350099-11756f66aca1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');"></div>
+</div>
     
 <!--End Main Container -->

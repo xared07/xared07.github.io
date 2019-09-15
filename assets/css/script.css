@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	text-align: center;
+	font-family: "Abel", sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 1.75rem;
+	text-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2rem auto;
+	max-width: 600px;
+}
+.card {
+	position: relative;  /* Needed so the shadow can be positioned absolute to the parent */
+	background-size: cover; /* Needed to let the bg image cover the card */
+	background-position: center;  /* Preference on where to anchor your image */
+	width: 100%;
+	height: 340px;
+	border-radius: .5rem;
+	padding: 1rem;
+	margin: 1rem;
+	color: white;
+	font-family: "Abel", sans-serif;
+	font-weight: lighter;
+	letter-spacing: .25px;
+	transition: transform 300ms; /* Needed for hover state */
+}
+.card::after {
+	content: '';
+	display: block;
+	position: absolute; /* Needed to position the shadow on parent */
+	z-index: -1; /* Needed to put shadow behind parent element */
+	top: 1rem; /* Offsets shadow position based on perceived light source */
+	left: .25rem; /* Offsets shadow position based on perceived light source */
+	right: .25rem; /* Offsets shadow position based on perceived light source */
+	bottom: -1rem; /* Offsets shadow position based on perceived light source */
+	width: auto; /* Makes this element the same size as the parent */
+	height: auto; /* Makes this element the same size as the parent */
+	background-image: inherit;  /* IMPORTANT! Needed to get BG image from parent element */
+	background-size: cover;  /* Should match parent styling */
+	background-position: center; /* Should match parent styling */
+	filter: blur(1rem); /* Gives the "shadow" look by blurring image */
+	transition:
+		top 300ms,
+		bottom 300ms,
+		opacity 300ms;
+}
+.card:hover {
+	cursor: pointer;
+}
+.card:hover::after {
+	top: 1.5rem;
+	bottom: -1.5rem;
+	transition:
+		top 300ms,
+		bottom 300ms,
+		opacity 300ms;
+	opacity: 0.55;
+}
