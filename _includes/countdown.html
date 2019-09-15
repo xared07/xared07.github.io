@@ -1,4 +1,4 @@
-<div class="container countdown" date="2019-09-16">
+<div class="container countdown" date="2019-09-16T06:00:00">
     <div class="row">
         <div class="col-12 col-lg-12">
             <div class="entry-header">
@@ -38,14 +38,13 @@
     function updateCountdown(){
         var dateString = document.querySelector("div[date]").getAttribute("date")
         var dateParts = dateString.split('-');
-        var targetDate = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
+        var targetDate = new Date(document.querySelector("div[date]").getAttribute("date"))
+        //var targetDate = new Date(dateParts[0], dateParts[1] - 1, dateParts[2]);
         var remainingDuration = calculateRemainingDays(targetDate,new Date())
         document.getElementById("days").innerHTML = remainingDuration.days
         document.getElementById("hours").innerHTML = remainingDuration.hours
         document.getElementById("minutes").innerHTML = remainingDuration.minutes
         document.getElementById("seconds").innerHTML = remainingDuration.seconds
-
-        console.log(targetDate.toDateString());
     }
 
     function calculateRemainingDays(date1,date2){
