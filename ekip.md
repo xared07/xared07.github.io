@@ -229,7 +229,7 @@ layout: default_style
         </a><a href="" title="Yunus Emre Şen - Denetleme Kurulu Üyesi">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
-                    style="background-image:url('./assets/img/team/akif.png');"></div>
+                    style=""></div>
                 <div class="about__info">
                     <h4 class="name">Yunus Emre Şen</h4>
                     <h5 class="title">Denetleme Kurulu Üyesi</h5>

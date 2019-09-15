@@ -11,7 +11,7 @@ layout: default_style
             Game Night
         </h1>
         <br>
-        <img src="assets/img/slider/gamenight.jpg" alt="Feature-img" align="right" width="100%" class="blog-image">
+        <img src="assets/img/slider/gamenight.jpg" align="right" width="100%" class="blog-image">
         <br>
         <p>Game nightlarimiz en temel etkinligimiz olabilir. Etkinligimiz bir gece erzagimizi depolayip bir gece boyunca
             bir
