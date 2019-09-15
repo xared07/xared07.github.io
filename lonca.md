@@ -56,13 +56,18 @@ layout: default_style
 <script>  
     $.get("https://sheets.googleapis.com/v4/spreadsheets/11ECOzxsP__qwVkcKaJfvEcFRpZmwae0RwQ_yRn1bYuc/values/Lonca Savaşları!A2:H100?majorDimension=COLUMNS&key=AIzaSyAhr7_kMNIob-SmsyIv4b5AsdoYTRRPr2c",(data)=>{
         var values = [0,0,0,0];
+        console.log(data.values)
         data.values.forEach((e,i)=>{
+            
             if (i%2 == 0){
-
             }else{
-                e.forEach((p) => {
-                    p = parseInt(p)
-                    values[parseInt(i/2)] += p;
+                  e.forEach((p) => {
+                    if (p!=""){
+                      p = parseInt(p)
+                      if (p!=NaN){
+                        values[parseInt(i/2)] += p;
+                      }
+                    }
                 })
             }
         })
