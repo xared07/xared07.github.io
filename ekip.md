@@ -56,9 +56,8 @@ layout: default_style
                 </div>
                 <div class="bioText"></div>
             </div>
-            <div class="bioText">Harbor Neher is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
-
-        </div>
+            
+        
     </a><a href="" title="Sarah Spoja - Staff Writer">
         <div class="about__slot">
             <div class="headshot" onclick="biograph(this.parentNode);"
