@@ -56,20 +56,15 @@ layout: default_style
                 </div>
                 <div class="bioText"></div>
             </div>
-            
-        
     </a><a href="" title="Sarah Spoja - Staff Writer">
         <div class="about__slot">
             <div class="headshot" onclick="biograph(this.parentNode);"
                  style="background-image:url('./assets/img/team/mel.jpg');"></div>
-
             <div class="about__info">
                 <h4 class="name">Melike Güngör</h4>
                 <h5 class="title">Sekreter</h5>
             </div>
             <div class="bioText">Sarah Spoja is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
-
-
         </div>
    </a><a href="" title="Sarah Spoja - Staff Writer">
             <div class="about__slot">
@@ -81,6 +76,8 @@ layout: default_style
                 </div>
                 <div class="bioText">
                 </div>
+            </div>
+        </a>
     </div>
     <div class="about__section">
         <!-- Specificity container -->
@@ -99,7 +96,6 @@ layout: default_style
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/berk.jpg');"></div>
-
                 <div class="about__info">
                     <h4 class="name">Berk Yeniçeri</h4>
                     <h5 class="title">Yönetim Kurulu Üyesi</h5>
@@ -120,7 +116,6 @@ layout: default_style
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/alperen.png');"></div>
-
                 <div class="about__info">
                     <h4 class="name">Alperen Efendioğlu</h4>
                     <h5 class="title">Crew</h5>
@@ -146,10 +141,8 @@ layout: default_style
                     <h5 class="title">Editör</h5>
                 </div>
                 <div class="bioText">Malik Ali is a lorem ipsum dalor set amet consectur adipscing.<br><br>f g+ tw li</div>
-
             </div>
         </a>
-
     </div>
     <div class="about__section">
         <!-- Specificity container -->
@@ -167,7 +160,6 @@ layout: default_style
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/orhun.jpg');"></div>
-
                 <div class="about__info">
                     <h4 class="name">Orhun Demir</h4>
                     <h5 class="title">Hearthstone Community Manager</h5>
@@ -184,12 +176,10 @@ layout: default_style
                 </div>
                 <div class="bioText"></div>
             </div>
-        
         </a><a href="" title="Harbor Neher - Account Manager">
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/alperen.png');"></div>
-
                 <div class="about__info">
                     <h4 class="name">Ahmethan Demir</h4>
                     <h5 class="title">Denetleme Kurulu Başkanı</h5>     
@@ -200,7 +190,6 @@ layout: default_style
             <div class="about__slot">
                 <div class="headshot" onclick="biograph(this.parentNode);"
                     style="background-image:url('./assets/img/team/ecem.jpg');"></div>
-
                 <div class="about__info">
                     <h4 class="name">Ecem Nur Demirel</h4>
                     <h5 class="title">Denetleme Kurulu Üyesi</h5>

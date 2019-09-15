@@ -978,6 +978,7 @@ ul.nav.navbar-nav{
   background-position:center center;
   background-repeat:no-repeat;
   overflow:hidden;
+  background-color:inherit;
 }
 
 .about__slot .bioText {
