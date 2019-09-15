@@ -3,53 +3,51 @@ title: Loncalar
 layout: default_style
 ---
 <div class="container">
-
-    <div class="row">
+    <div class="row" style="margin-top:64px">
         <div class="col-md-3">
             <h1 class="header text-center">DRAMOON</h1>
-            <h2 class="text-center header" id="dramoon-points"></h2>
+            <h2 class="text-center header" id="dramoon-points">0</h2>
         </div>
         <div class="col-md-3">
             <h1 class="header text-center">OCRIUS</h1>
-            <h2 class="text-center header" id="ocrius-points"></h2>
+            <h2 class="text-center header" id="ocrius-points">0</h2>
         </div>        
         <div class="col-md-3">
             <h1 class="header text-center">GINCARTA</h1>
-            <h2 class="text-center header" id="gincarta-points"></h2>
+            <h2 class="text-center header" id="gincarta-points">0</h2>
         </div>        
         <div class="col-md-3">
             <h1 class="header text-center">KRAAGA</h1>
-            <h2 class="text-center header" id="kraaga-points"></h2>
+            <h2 class="text-center header" id="kraaga-points">0</h2>
         </div>
     </div>
-
-    <table class="table">
+    <table class="table" style="margin-top:98px;">
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">İsim</th>
+            <th scope="col">Lonca</th>
+            <th scope="col">Puan</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
+            <th scope="col">1</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
           </tr>
           <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            <th scope="col">2</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
           </tr>
           <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
+            <th scope="col">3</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
           </tr>
         </tbody>
       </table>

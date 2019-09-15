@@ -1112,3 +1112,9 @@ ul.nav.navbar-nav{
 
 
 /* END STYLE 1 */
+
+
+/* FIXES */
+.nav{
+  font-size:80%;
+}
