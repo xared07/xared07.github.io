@@ -1,6 +1,6 @@
 ---
 layout: default_style
-published: true
+published:  true
 ---
 <!-- Main Container -->
 
