@@ -11,7 +11,7 @@ layout: default_style
             Game Night
         </h1>
         <br>
-        <img src="assets/img/slider/gamenight.jpg" align="right" width="100%" class="blog-image">
+        <img src="assets/img/slider/gamenight-image.jpg" align="right" width="100%" class="blog-image">
         <br>
         <p>Game nightlarimiz en temel etkinligimiz olabilir. Etkinligimiz bir gece erzagimizi depolayip bir gece boyunca
             bir
@@ -20,12 +20,12 @@ layout: default_style
             geceler bizim için cok onemli cünkü arkadasliklarimizi gamenightlarda sekilleniyor. Lenovo GameON gibi
             tanınmıs
             internet kafelerde gerçekleştiriyoruz bu etkinligimizi ve cok egleniyoruz.</p>
-        <div class="pull-right">
+        <!--div class="pull-right">
             <span class="label label-default">alice</span>
             <span class="label label-primary">story</span>
             <span class="label label-info">personal</span>
             <span class="label label-warning">warning</span>
-        </div>
+        </div-->
     </div>
     <hr>
     <div class="blog-post">
@@ -42,12 +42,12 @@ layout: default_style
             da olabilir. Bu egitimleri tamamen ucretsiz bir sekilde saglayacagız uyelerimize. Ayrıca egitimlerimizde de
             cok
             egleniyoruz giris ve cikislarinda yine hep beraber bir seyler yapiyoruz.</p>
-        <div class="pull-right">
+        <!--div class="pull-right">
             <span class="label label-default">alice</span>
             <span class="label label-primary">story</span>
             <span class="label label-info">personal</span>
             <span class="label label-warning">warning</span>
-        </div>
+        </div-->
     </div>
     <hr>
     <div class="blog-post">
