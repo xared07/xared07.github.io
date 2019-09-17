@@ -76,7 +76,7 @@ layout: default_style
           var currentFaction = factions[factionNames[loncaIndex]] = {users: []}
           console.log(loncaIndex*2)
           for (var i = 0;i<data.values[loncaIndex*2].length;i++){
-            var points = data.values[loncaIndex*2+1][i]==undefined? 0 : data.values[loncaIndex*2+1][i]
+            var points = data.values[loncaIndex*2+1][i]==undefined? 0 : parseInt(data.values[loncaIndex*2+1][i])
             currentFaction.users.push({name:data.values[loncaIndex*2][i],points:points})
             var f = factionNames[loncaIndex][0].toUpperCase() + factionNames[loncaIndex].slice(1); 
             allUsers.push({name:data.values[loncaIndex*2][i],points:points,faction:f})
@@ -108,7 +108,7 @@ layout: default_style
           return ret;
         }
         function getTop(top){
-          return allUsers.sort((a,b) => (a.points > b.points) ? 1 : (b.points> a.points) ? -1 : 0).slice(allUsers.length - top)
+          return allUsers.sort((a,b) => (a.points > b.points) ? 1 : (b.points> a.points) ? -1 : 0).slice(allUsers.length - top).reverse()
         }
 
         getTop(5).forEach((e,i)=>{
@@ -143,7 +143,8 @@ layout: default_style
           /*load content*/
           var f = faction.charAt(0).toUpperCase() + faction.slice(1); 
           popup.querySelector(".panel-heading").innerHTML = f;
-          factions[faction].users.forEach((e,i)=>{
+          sortedUsers = factions[faction].users.sort((a,b) => (a.points > b.points) ? 1 : (b.points> a.points) ? -1 : 0).reverse()
+          sortedUsers.forEach((e,i)=>{
             popup.querySelector("tbody").innerHTML+=`
               <tr>
                 <th>
