@@ -63,7 +63,7 @@ layout: default_style
 </div>
 
 <script>  
-    $.get("https://sheets.googleapis.com/v4/spreadsheets/11ECOzxsP__qwVkcKaJfvEcFRpZmwae0RwQ_yRn1bYuc/values/Lonca Savaşları!A2:H100?majorDimension=COLUMNS&key=AIzaSyAhr7_kMNIob-SmsyIv4b5AsdoYTRRPr2c",(data)=>{
+    $.get("https://sheets.googleapis.com/v4/spreadsheets/1ei6ZUQGKvD0FzXykqvhxUH1HQ4kGjGlbRJyv6BFjzzI/values/Lonca Savaşları!A2:H100?majorDimension=COLUMNS&key=AIzaSyAhr7_kMNIob-SmsyIv4b5AsdoYTRRPr2c",(data)=>{
         var values = [0,0,0,0];
         var factions = {};
         var allUsers = []
