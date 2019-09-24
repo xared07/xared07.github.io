@@ -372,19 +372,19 @@ layout: default_style
 
   .sandglass[data-faction="dramoon"] .points,
   .sandglass[data-faction="dramoon"] .toppoints{
-    background-color:#0F0;
+    background:linear-gradient(to bottom right,#0F0,darkgreen);
   }
   .sandglass[data-faction="ocrius"] .points,
   .sandglass[data-faction="ocrius"] .toppoints{    
-    background-color:#FF0;
+    background:linear-gradient(to bottom right,yellow,orange);
   }    
   .sandglass[data-faction="gincarta"] .points,
   .sandglass[data-faction="gincarta"] .toppoints{
-    background-color:#0FF;
+    background:linear-gradient(to bottom right,#0FF,#103a04);
   }    
   .sandglass[data-faction="kraaga"] .points,
   .sandglass[data-faction="kraaga"] .toppoints{
-    background-color:#00F;
+    background:linear-gradient(to bottom right,purple,blue);
   }
 
   .sandglass .drop{
