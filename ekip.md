@@ -108,7 +108,7 @@ layout: default_style
                     style="background-image:url('./assets/img/team/baran.png');"></div>
                 <div class="about__info">
                     <h4 class="name">Baran Demirci</h4>
-                    <h5 class="title">Etkinlik Sorumlusu</h5>
+                    <h5 class="title">Etkinlik Organizatörü</h5>
                 </div>
                 <div class="bioText"></div>
             </div>
@@ -118,7 +118,7 @@ layout: default_style
                     style="background-image:url('./assets/img/team/alperen.png');"></div>
                 <div class="about__info">
                     <h4 class="name">Alperen Efendioğlu</h4>
-                    <h5 class="title">Crew</h5>
+                    <h5 class="title">Etkinlik Organizatörü</h5>
                 </div>
                 <div class="bioText"></div>
             </div>
