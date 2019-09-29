@@ -12,14 +12,10 @@ published: true
     </div>
     <div class="container">
       <div class="col-lg-4">
-        <h4>Find us at:</h4>
-
+        <h3>Bize Ulaşın:</h3>
         <p class="block-author">{{ site.company_name }}</p>
         <p>{{ site.address_line }}</p>
-        <p>Phone: {{ site.telephone_number }}</p>
-        <p>Fax: {{ site.fax_number }}</p>
-
-        <em class="block-author">Email: {{ site.company_email }}</em> <br>
+        <em class="block-author">Email: <a href="mailto:{{ site.company_email }}">{{ site.company_email }}</a></em> <br>
         <br>
         <!-- p class="lead">Social Link</p><hr>
         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
@@ -38,9 +34,7 @@ published: true
       </div>
       <div class="col-lg-8">
         <div class="feedback-form">
-
           <div id="contact-response"></div>
-          
           <form action="http://templates.designorbital.com/baleen/contact.php" method="post" id="contact-form">
             <fieldset>
               <div class="form-group form-group-fullname">
@@ -58,7 +52,6 @@ published: true
               <button type="submit" class="btn btn-primary">Submit</button>
             </fieldset>
           </form>
-          
         </div> 
       </div>
     </div>

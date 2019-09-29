@@ -14,16 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: YTU DOGDOK
-email: info@dogdok.com
+email: ytudogdok@gmail.com
 description: 
-phone: "auaua"
+phone: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dogdok.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
 company_name: Dijital Oyun Geliştirme ve Dijital Oyunculuk Kulübü
 address_line: Yıldız Teknik Üniversitesi Davutpaşa Kampüsü
-company_email: info@dogdok.com
+company_email: ytudogdok@gmail.com
 google_map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4256.746407391211!2d28.88652539319333!3d41.02581928790205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabae67665c11f%3A0x3fb8948044de2687!2zWcSxbGTEsXogVGVrbmlrIMOcbml2ZXJzaXRlc2kgRGF2dXRwYcWfYSBZZXJsZcWfa2VzaQ!5e0!3m2!1str!2str!4v1564960140034!5m2!1str!2str
 # Social Link
 facebook_link: https://www.facebook.com/dogdokytu/

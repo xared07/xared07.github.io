@@ -321,7 +321,7 @@ layout: default_style
     opacity: 0.5;
     border: 1px solid #A2B9C4;
     border-radius: 10% 10% 40% 40%;
-    z-index: 1;
+    z-index: -1;
     position:relative;
   }
 
@@ -367,7 +367,7 @@ layout: default_style
     bottom:60px;
     transition-duration: 1s;
     transition-delay: 0.1s;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   }
 
   .sandglass[data-faction="dramoon"] .points,
@@ -394,6 +394,9 @@ layout: default_style
     width:10px;
     height:10px;
     color:inherit;
+
+    border-radius:50%;
+    z-index:-2;
   }
 
   .drop.d1{
