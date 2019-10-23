@@ -19,6 +19,5 @@ published:  true
 	height:auto;
 	border-radius:16px;
 	padding:1rem;
-	margin:1rem;
 }
 </stle>
