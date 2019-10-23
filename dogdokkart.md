@@ -6,8 +6,19 @@ published:  true
 
 <h1>DOGDOK Kart</h1>
 <div class="grid">
-	<div id="card1" class="card" style="background-image: url('https://i.ibb.co/QDxFwyc/ONSAYFA-1.png');"></div>
-	<div id="card2" class="card" style="background-image: url('https://i.ibb.co/LN0KQW9/ARKASAYFA-1.png" alt="ARKASAYFA-1');"></div>
+	<img id="card1" class="dcard" src="https://i.ibb.co/QDxFwyc/ONSAYFA-1.png">
+	<img id="card2" class="dcard" src="https://i.ibb.co/LN0KQW9/ARKASAYFA-1.png">
+</div>
 	
     
 <!--End Main Container -->
+
+<style>
+.dcard{
+	width:100%;
+	height:auto;
+	border-radius:16px;
+	padding:1rem;
+	margin:1rem;
+}
+</stle>
