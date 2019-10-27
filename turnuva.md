@@ -4,28 +4,50 @@ page: turnuva
 layout: default_style
 ---
 
-<h3 class="header text-center" style="margin-top:64px;margin-bottom:350px;">Şuan Kayıta Açık Turnuva Bulunmamaktadır.</h3>
-<h4 class="header text-center" style="margin-top:65px;margin-bottom:50px;">Geçmiş Turnuva Sonuçları</h4>
-<div align="center">
-<button class="btn btn-primary plus-minus collapsed" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2" style="margin-bottom:50px;" >
-  18.09.2019 Loncalar Arası Teamfight Tactics Turnuvası
-</button>
-<div class="collapse" id="collapseExample2">
-  <iframe src="https://challonge.com/7xe7u954/module" width="25%" height="350" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
-
+<h3 id="no-tournament" class="header text-center" style="margin-top:64px;margin-bottom:120px;">Şuan Kayda Açık Etkinlik Bulunmamaktadır.</h3>
+<h3 id="title" class="header text-center" style="margin-top:64px;"></h3>
+<div class="text-center">
+	<iframe id="registration" src="" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
 </div>
 
-
+<h4 class="header text-center" style="margin-top:32px;margin-bottom:12px;">Geçmiş Turnuva Sonuçları</h4>
 <br/>
-<span class="btn btn-primary plus-minus collapsed" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" style=";margin-bottom:50px;">
-  17.09.2019 League of Legends 1v1 Turnuvası
-</span>
-<div class="collapse" id="collapseExample3" >
-  <iframe src="https://challonge.com/tr/zf236vzl/module" width="70%" height="600" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+
+<div id="tournaments" class="container text-center">
+
 </div>
-<!-- partial -->
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
 
 
 <!--div align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemos8uJ5Qpvr7ATct5-q-CGcncUUzigJCaKrMgi8KOJmJQqw/viewform?embedded=true" width="640" height="511" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div-->
+
+<script>
+	$("#no-tournament").hide()
+	$("#title").hide()
+	$.get("https://sheets.googleapis.com/v4/spreadsheets/1X-PtBa0CGJ0D2_f9XkG09Gwf6fXYBR31FtEXsAupyVM/values/Sayfa1!A1:C100?majorDimension=ROWS&key=AIzaSyAhr7_kMNIob-SmsyIv4b5AsdoYTRRPr2c",(data)=>{
+		var history = []
+		console.log(data);
+		console.log(data.values[0])
+		if (data.values[0][2] == "" || data.values[0][2] == undefined){
+			$("#no-tournament").show()
+		}else{
+			$("#title").show()
+			$("#title").html(data.values[0][1])
+			$("#registration").attr("src",data.values[0][2]);
+		}
+		data.values.forEach((e,i)=>{
+			if (i == 0) return;
+			var tournament = {name:e[0],url:e[1]}
+			history.push(tournament)
+			document.getElementById("tournaments").innerHTML+=`
+			<button class="btn btn-primary plus-minus collapsed" type="button" data-toggle="collapse" data-target="#tournament-collapse-${i}" aria-expanded="false" aria-controls="collapseExample3" style="display:block;margin:auto;margin-bottom:50px;">
+				${tournament.name}
+			</button>
+			<div class="collapse" id="tournament-collapse-${i}" >
+				<iframe src="${tournament.url}" width="100%" height="600" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+			</div>
+			`;
+		})
+
+		console.log(history)
+	});
+</script> 

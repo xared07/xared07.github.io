@@ -5,9 +5,15 @@ published:  true
 <!-- Main Container -->
 
 <h1>DOGDOK Kart</h1>
-<div class="grid">
-	<img id="card1" class="dcard" src="https://i.ibb.co/QDxFwyc/ONSAYFA-1.png">
-	<img id="card2" class="dcard" src="https://i.ibb.co/LN0KQW9/ARKASAYFA-1.png">
+<div class="container">
+	<div class="grid">
+		<div class="row">
+			<div class="col-md-12">
+				<img id="card1" class="dcard" src="https://i.ibb.co/QDxFwyc/ONSAYFA-1.png">
+				<img id="card2" class="dcard" src="https://i.ibb.co/LN0KQW9/ARKASAYFA-1.png">
+			</div>
+		</div>
+	</div>
 </div>
 	
     
