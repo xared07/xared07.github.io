@@ -5,7 +5,7 @@ layout: default_style
 ---
 
 <h3 id="no-tournament" class="header text-center" style="margin-top:64px;margin-bottom:120px;">Şu Anda Kayda Açık Olan Etkinlikler.</h3>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-XZe-Wjj8DOs-if6MFANUP5wJOZV0Uf5olPz_MPKLhUef6Q/viewform" width="100%" height="4000" frameborder="0" marginheight="0" marginwidth="0" ></iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-XZe-Wjj8DOs-if6MFANUP5wJOZV0Uf5olPz_MPKLhUef6Q/viewform" width="640" height="4000" frameborder="0" marginheight="0" marginwidth="0" ></iframe>
 <h3 id="title" class="header text-center" style="margin-top:64px;"></h3>
 <div class="text-center">
 	<iframe id="registration" src="" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
