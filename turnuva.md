@@ -4,12 +4,23 @@ page: turnuva
 layout: default_style
 ---
 
-<h3 id="no-tournament" class="header text-center" style="margin-top:64px;margin-bottom:120px;">Şu Anda Kayda Açık Olan Etkinlikler</h3>
-<div align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-XZe-Wjj8DOs-if6MFANUP5wJOZV0Uf5olPz_MPKLhUef6Q/viewform" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0" ></iframe></div>
-<h3 id="title" class="header text-center" style="margin-top:64px;"></h3>
-<div class="text-center">
-	<iframe id="registration" src="" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
+<h3 id="no-tournament" class="header text-center" style="margin-top:64px;margin-bottom:64px;">Şu Anda Kayda Açık Olan Etkinlikler</h3>
+
+<button class="btn btn-primary plus-minus collapsed" type="button" data-toggle="collapse" data-target="#tournament-collapse-indie-game" aria-expanded="false" aria-controls="collapseExample3" style="display:block;margin:auto;margin-bottom:50px;">
+	DGD Indie Game Alan Başvurusu
+</button>
+<br>
+<br>
+<div class="collapse" id="tournament-collapse-indie-game" >
+	<div align="center">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-XZe-Wjj8DOs-if6MFANUP5wJOZV0Uf5olPz_MPKLhUef6Q/viewform" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0" ></iframe>
+	</div>
 </div>
+
+<h3 id="title" class="header text-center" style="margin-top:64px;"></h3>
+<!--div class="text-center">
+	<iframe id="registration" src="" width="640" height="480" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor…</iframe>
+</div-->
 
 <h4 class="header text-center" style="margin-top:32px;margin-bottom:12px;">Geçmiş Turnuva Sonuçları</h4>
 <br/>
